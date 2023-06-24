@@ -1,0 +1,19 @@
+
+$primary-color:#fff;
+$frequent-color:#1089ff;
+$frequent-color1: #01d28e;
+@mixin responsive($breakPoint) {
+  @if $breakPoint==tab {
+      @media screen and (max-width:768px){@content}
+  }
+  @if $breakPoint==phone {
+      @media screen and (max-width:430px){@content}
+  }
+
+}
+
+
+
+
+
+
